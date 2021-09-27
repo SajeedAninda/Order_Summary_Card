@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color:  hsl(225, 100%, 94%);
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+p{
+  font-size: 16px;
+  font-weight: 500;
+  color:rgb(87, 84, 84)
+}
+.card{
+  width:30%;
+  height:85vh;
+  margin:0 auto;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 15px hsl(224, 23%, 55%);
+}
+.card .hero{
+  width:410px;
+  height: 180px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.text{
+  text-align: center;
+  width:80%;
+  margin:0 auto;
+  padding-top:25px;
+  padding-bottom:15px;
+}
+.text h1{
+  font-size:1.5rem;
+  color:rgb(20, 20, 20);
+  font-weight: 900;
+  margin-bottom:15px
+}
+.plan{
+  height: 70px;
+  border-radius: 10px;
+  width: 77%;
+  margin: 0 auto;
+  background-color:  hsl(225, 100%, 98%);
+}
+.plan img{
+  float: left;
+  padding-top:12px;
+  padding-left: 12px;
+  padding-right: 20px;
+}
+.plan-text{
+  padding-top: 12px;
+}
+.plan-text h2{
+  font-size: 1.1rem;
+  color:rgb(20, 20, 20);
+}
+.plan a{
+  float: right;
+  margin-top:-35px;
+  margin-right: 18px;
+  font-weight: 700;
+}
+.plan a:hover{
+  color:hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.payment{
+  width: 77%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.payment .btn{
+  width:100%;
+  padding:17px;
+  border-radius: 15px;
+  border-style: none;
+  background-color:  hsl(245, 75%, 52%);
+  color:white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 15px hsl(224, 23%, 55%);
+}
+.payment .btn:hover{
+  background-color:hsl(224, 23%, 55%);
+}
+.payment a{
+  text-decoration: none;
+  text-align: center;
+  color:grey;
+  font-weight: 900;
+}
+.payment a:hover{
+  color:rgb(20, 20, 20);
+}
